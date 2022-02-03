@@ -6,6 +6,7 @@ const User = require('../models/user')
 const jwt = require('jsonwebtoken')
 
 
+
 /**routage de la ressource User* */
 //fonction de s'inscrire
 exports.signup = (req, res, next) => {
